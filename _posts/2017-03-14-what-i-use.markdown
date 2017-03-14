@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "What I use for development"
+date:   2017-03-13 13:38:34 +0700
+categories: posts
+---
+So, if you haven't noticed from my [Github](https://github.com/baskoros) page, I'm mostly a [PHP](http://www.php.net/) developer. Yeah, yeah I know there's a circlejerk towards PHP as a language, but I couldn't care less. IMO, any tool in the right hands can be powerful. Including PHP. Heck, you know what [Facebook is built on](https://en.wikipedia.org/wiki/HipHop_Virtual_Machine)?
+
+Anyway, in this post I'll try to explain my full time job tech stack and the tools I use. As a PHP dev using popular frameworks like Laravel and Yii2, I need an IDE that I can rely on. I first fell in love with the concept of an IDE back in 2013 (citation needed lol) when I was doing an intern job developing .NET apps using Visual Studio. Back then, Ctrl+clicking a variable to go to its declaration was magic to me. That's when I first learnt what [IntelliSense](https://en.wikipedia.org/wiki/Intelligent_code_completion) was.
+
+Finishing that intern job to go back to PHP for my thesis and side projects, I was dreaded to be using Notepad++ for development. I've been stripped the luxury of IntelliSense, so I researched to find what was the best equivalent tool was for PHP. That's where I first learnt about [Netbeans](https://netbeans.org/) - the tool that I use to this day. It might not look as pretty as Visual Studio ([especially on Linux](https://www.google.com/search?q=netbeans+ugly+linux&oq=netbeans+ugly+linux)) but it gets the job done and boy Ctrl+clicking on stuff boosted my productivity.
+
+As far as operating systems go, well I can basically use anything (I dual boot [Windows 10](https://www.microsoft.com/en-us/windows) and [Ubuntu 16.04](https://www.ubuntu.com/)) but for my local dev server, I rely on [Vagrant](https://www.vagrantup.com/) on top of [Virtualbox](https://www.virtualbox.org/), in which I run an Ubuntu 16.04 image. Somehow typing `vagrant up` and `vagrant ssh` gives me satisfaction...
+
+As far as RDBMS goes, I rely on [MariaDB](https://mariadb.org/) (sometimes [MySQL](https://www.mysql.com/)), since I basically grew up on these, though I have worked with [PostgreSQL](https://www.postgresql.org/) for a project. [HeidiSQL](https://www.heidisql.com/) is my primary database management tool, running on top of [Wine](https://www.winehq.org/) if run on a Linux system.
+
+[Gitlab](https://gitlab.com/) for work related projects and [Github](https://github.com/) for personal projects is where I go to store my repositories. And yes, I use `git` CLI to interact with Git.
+
+Other tools that I haven't mentioned are probably [Putty](http://www.putty.org/) as an SSH client on Windows (Basic `ssh` when running on Linux), [Atom](https://atom.io/) for a lightweight text editor, apart from the occasional [Notepad++](https://notepad-plus-plus.org/) to handle large files, [Postman](https://www.getpostman.com/) for API testing (if you've never used a tool like this to test your APIs, I **strongly** suggest you to try it out), and last but not least, [Xdebug](https://xdebug.org/) for PHP debugging.
+
+Tabs vs Spaces? Why not both? (Tabs that convert into 4 spaces) (Probably spaces then) (I really need to settle on one)
+
+Emacs or Vim? Screw them both! [Nano](https://www.nano-editor.org/) is the way to go!

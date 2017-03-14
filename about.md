@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: Where on earth am I?
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi there. This is a blog acting as my medium to post dev related content, whether it's a dev problem I've encountered or interesting ideas that I might have had the time to explore in my free time. Some future content may be linked to my Medium account.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+If you have any inquiries, my Twitter account is on the bottom of the page. I'm more than happy to discuss dev related stuff on the platform.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Happy reading!

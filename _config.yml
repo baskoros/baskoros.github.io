@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Baskoro's Log
+title: [BAS DEV LOG]
 email: [hidden]
 description: > # this means to ignore newlines until "baseurl:"
   Baskoro Susanto's dev log
@@ -24,10 +24,11 @@ github_username:  baskoros
 
 # Build settings
 markdown: kramdown
-theme: minimal
+theme: minima
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
 permalink: pretty
+host: 0.0.0.0
