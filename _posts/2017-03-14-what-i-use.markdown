@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What I use for development"
-date:   2017-03-13 13:38:34 +0700
+date:   2017-03-14 22:20:00 +0700
 categories: posts
 ---
 So, if you haven't noticed from my [Github](https://github.com/baskoros) page, I'm mostly a [PHP](http://www.php.net/) developer. Yeah, yeah I know there's a circlejerk towards PHP as a language, but I couldn't care less. IMO, any tool in the right hands can be powerful. Including PHP. Heck, you know what [Facebook is built on](https://en.wikipedia.org/wiki/HipHop_Virtual_Machine)?
